@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCLoan", "SMCLoan\SMCLoan.csproj", "{E6302226-39F6-4B75-B82E-1E8CD2FDC52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMCLoanFacts", "SMCLoanFacts\SMCLoanFacts.csproj", "{96B4A6F4-2F66-4F44-BAAF-D0928BB9707F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0E85CAB8-4D4D-4E55-9F4E-84117FD0EC2D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{229C4EB5-504E-4210-BFAB-9EE6F36AB6E2}"
+	ProjectSection(SolutionItems) = preProject
+		Test.bat = Test.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6302226-39F6-4B75-B82E-1E8CD2FDC52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6302226-39F6-4B75-B82E-1E8CD2FDC52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6302226-39F6-4B75-B82E-1E8CD2FDC52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6302226-39F6-4B75-B82E-1E8CD2FDC52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B4A6F4-2F66-4F44-BAAF-D0928BB9707F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B4A6F4-2F66-4F44-BAAF-D0928BB9707F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B4A6F4-2F66-4F44-BAAF-D0928BB9707F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B4A6F4-2F66-4F44-BAAF-D0928BB9707F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
